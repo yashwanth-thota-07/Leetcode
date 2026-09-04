@@ -11,8 +11,9 @@
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
-         if (head == nullptr)
+         if (head == nullptr){
             return nullptr;
+         }  
         ListNode* temp = head;
         int count = 1;
         ListNode* head1 = new ListNode(head->val);
